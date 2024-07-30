@@ -1,0 +1,90 @@
+@charset "utf-8";
+body {
+    background-color: #000000;
+}
+.container form center {
+    margin-left: 112%;
+    border-bottom-right-radius: 5px;
+	background: #FFFFFF;
+}
+
+
+.row .col-xl-7 .text-center {
+
+}
+form center #firstName {
+	  background-color: #000000;
+  		color: white;
+}
+form center #lastName {
+	background-color: #000000;
+  		color: white;
+}
+form center #email {
+	background-color: #000000;
+  		color: white;
+}
+
+
+
+.row .col-xl-7 {
+    margin-right: 62px;
+    right: 70px;
+}
+
+
+.container form textarea {
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+.container form #button {
+    margin-left: -1%;
+    margin-right: 0%;
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+}
+body footer {
+    margin-left: 18px;
+}
+
+.container form h1{
+    color: #fff;
+}
+
+
+.container form input::placeholder{
+    color: #ddd;
+	
+}
+
+
+.container form h4{
+    color: #fff;
+}
+
+.container form textarea{
+    color: #FFFFFF;
+	background: #000000;
+	width: 400px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.container form #button{
+  
+    background: #ED1B24;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.container form #button:hover{
+    opacity: 0.7;
+}
